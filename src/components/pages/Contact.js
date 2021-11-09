@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import './Contact.css';
-import { Button } from '../Button';
+import { ButtonWA } from '../ButtonWA';
 
 export default function Contact() {
     return (
@@ -10,10 +10,11 @@ export default function Contact() {
             <div className='contact-container'>
                 <h1>CONTACT ME NOW</h1>
                 <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline'
+                <ButtonWA className='btns' buttonStyle='btn--primary'
                 buttonSize='btn--large'>
+                    <i class='fab fa-whatsapp' />
                     WHATSAPP ME
-                </Button> 
+                </ButtonWA> 
             </div>
             </div>
         </>
