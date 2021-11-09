@@ -1,2 +1,2 @@
 # Personal Web
-created using bootstrap
+created using react.js & bootstrap
