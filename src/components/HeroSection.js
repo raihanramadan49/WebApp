@@ -7,17 +7,13 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <video src='/videos/video-1.mp4' autoPlay loop muted />
-            <h1>ABOUT ME</h1>
-            <p>testing</p>
+            <h1>Hi!</h1>
+            <p>Welcome to my personal web!</p>
             <div className='hero-btns'>
                 <Button className='btns' buttonStyle='btn--outline'
                 buttonSize='btn--large'>
                     GET STARTED
                 </Button> 
-                <Button className='btns' buttonStyle='btn--primary'
-                buttonSize='btn--large'>
-                    FEEL FREE TO CONTACT <i className='far fa-play-circle' />
-                </Button>
             </div>
         </div>
     )
