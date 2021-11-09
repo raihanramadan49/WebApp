@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/about' component={About} />
+        <Route path='/WebApp' exact component={Home} />
+        <Route path='/WebApp/contact' component={Contact} />
+        <Route path='/WebApp/about' component={About} />
         <Route path='/sign-up' component={SignUp} />
       </Switch>
     </Router>
